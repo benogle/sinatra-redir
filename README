@@ -1,0 +1,13 @@
+Run it local:
+
+rackup -p 4567
+
+Hook up to domain:
+
+http://devcenter.heroku.com/articles/custom-domains
+
+```
+heroku addons:add custom_domains
+heroku domains:add www.example.com
+heroku domains:add example.com
+```
